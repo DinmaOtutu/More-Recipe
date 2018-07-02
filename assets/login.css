@@ -13,10 +13,22 @@ html {
 }
 
 .login_section {
-    margin: 20px auto;
+    margin: 100px auto;
     width: 350px;
     padding: 10px;
     box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
-    border: 1px solid grey;
     border-radius: 3px;
+}
+
+.login_section > h4,
+form > h5 {
+    text-align: center;
+}
+
+.login_section > h4{
+    margin-bottom: 20px;
+}
+
+form > h5 {
+    margin-top: 30px;
 }
