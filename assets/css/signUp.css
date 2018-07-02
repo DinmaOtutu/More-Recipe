@@ -1,5 +1,8 @@
 body {
-    background: url(../assets/bg3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url(../images/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-pad {
+  padding: 50px;
 }
