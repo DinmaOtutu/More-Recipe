@@ -9,7 +9,7 @@ const getDomElem = () => {
         const user = { email, password }
         fetch('https://more-recipes.herokuapp.com/api/v1/users/login', {
             method: POST,
-            body: JSON.stringify(data),
+            body: JSON.stringify(user),
             header: {
                 'Content-Type': 'application/json'
             }
